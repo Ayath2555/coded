@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<head>
+  <title>
+    buttons.html
+  </title>
+<style>
+  .button{
+    background-color: blue;
+    color: white;
+    border-radius:15px;
+    width:200px;
+    height:30px;
+    border: none;
+  }
+  .button:hover{
+    background-color:white;
+    color: blue;
+    transition: background-color 1.15s,color 1.15s;
+  }
+  .button:active{
+    opacity: 0.5;
+  }
+  .b{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    width:75px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black ;
+  }
+  .b:hover{
+    color: black;
+    border-color: black;
+    transition: color 0.15s,border-color 0.15s;
+  }
+  .b:active{
+    opacity: 0.3;
+  }
+</style>
+</head>
+<body>
+  <button class="button">
+    Apply on company website
+  </button>
+  <button class="b" >
+    Save
+  </button>
+</body>
+
